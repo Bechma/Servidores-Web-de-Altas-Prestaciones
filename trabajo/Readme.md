@@ -44,3 +44,8 @@ Para detectar o realizar un SQLi se requieren altos conocimientos de la base de 
 
 Aunque por otro lado, hay herramientas como SQLmap que ayudan a detectar este tipo de ataques por medio de pruebas personalizadas. Haciendo más fácil tanto la tarea del hacker malo, como del bueno.
 
+### Enlaces útiles
+
+[OWAP](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005))
+
+[SQL cheatsheet](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/)

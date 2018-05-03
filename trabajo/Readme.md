@@ -39,6 +39,8 @@ Todas estas técnicas al fin y al cabo se basan en ir investigando con diferente
 ## Demostración
 En la clase haré una demostración de SQLi *Union based* sobre los archivos php adjuntos en esta carpeta, prueba1.php no es vulnerable(es por donde accedemos a nuestra base de datos con los usuarios) pero prueba2.php es vulnerable y por culpa de ello podremos obtener información sobre los usuarios y contraseñas para poder loguearnos luego en prueba1.php
 
+He añadido adicionalmente un script simple en python que hace un ataque a prueba2.php para sacar el usuario administrador(modificar la url a gusto).
+
 ## Conclusiones
 Para detectar o realizar un SQLi se requieren altos conocimientos de la base de datos que se esté usando, ya que puede pasar que se detecte una vulnerabilidad pero no se consiga extraer información alguna por desconocimientos de comandos o trucos para saltarse el filtrado. Aparte, es importante saber el lenguaje que se utiliza para enviar consultas, ya que puede que haya alguna vulnerabilidad relacionada con el filtrado o en el propio envio.
 
